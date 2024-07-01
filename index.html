@@ -2,14 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device, initial-scale=1.0">
-    <title>My first website</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-</h1>Welcome to Moringa school</h1>
-<body> 
-  </h1>Welcome to Moringa school</h1>
-  <h5>wabalaba dub dub </h5>
-  <img src="data:image/jpeg;base64,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" alt="John Doe"> 
+<body>
+  
+    <nav>
+        <div class="nav-wrapper teal">
+            <a href="#" class="brand-logo center">My Portfolio</a>
+        </div>
+    </nav>
+
+    
+    <section id="intro" class="center-align">
+        <div class="overlay"></div>
+        <div class="content">
+            <h2>Yo, I'm 20 years old tryna make it in this rap game.</h2>
+            <h5>Lookin' for work to make things happen. Ya feel me?</h5>
+            <div class="buttons">
+                <a href="#about" class="btn-large waves-effect waves-light teal">Learn More</a>
+                <a href="#skills" class="btn-large waves-effect waves-light teal">My Skills</a>
+            </div>
+            
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" class="social-icon"><i class="material-icons">facebook</i></a>
+                <a href="https://twitter.com" target="_blank" class="social-icon"><i class="material-icons">twitter</i></a>
+                <a href="https://instagram.com" target="_blank" class="social-icon"><i class="material-icons">instagram</i></a>
+                <a href="https://linkedin.com" target="_blank" class="social-icon"><i class="material-icons">linkedin</i></a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about" class="section white">
+        <div class="container">
+            <h2 class="page-title teal-text text-darken-3">About Me</h2>
+            <p>
+                Yo, I'm postin' this resume lookin' for dat work. I have lots of skills dat can succeed your company. Niggiz like me are lookin' somewhere to work but I ain't bout that hourly. I want dat straight up money in my hand, ya hurd?
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section teal lighten-4">
+        <div class="container">
+            <h2 class="page-title teal-text text-darken-3">My Skills</h2>
+            <ul>
+                <li>I can roll a blunt in da rain.</li>
+                <li>Kount money faster than a bank teller.</li>
+                <li>Disconnect a car stereo in 9 seconds.</li>
+                <li>22 SPM (stabs per minute).</li>
+                <li>Got my probation officer to fall in luv wit me.</li>
+                <li>School wasn 4 me but I went to lunch cuz it was free.</li>
+                <li>Can do a crazy dougie.</li>
+                <li>I know how 2 run 3 blocks in 30 seconds with 2 32 inch flat screens in hand.</li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
